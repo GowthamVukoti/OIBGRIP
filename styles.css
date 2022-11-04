@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&family=Montserrat:wght@400;700&family=Open+Sans:wght@300;600&display=swap');
+
+:root{
+    --off:#f8fafc;
+    --topbtn:#f87171;
+    --lbtn:#3b82f6;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 80vw;
+    font-family: 'Ubuntu', sans-serif
+}
+
+.navbar {
+    display: flex;
+    height: 67px;
+}
+
+.navbar li {
+    list-style: none;
+    margin: 0 12px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.topleft {
+    width: 50%;
+    height: 60vh;
+
+}
+.topright {
+    width: 50%;
+    height: 50vh;
+
+}
+.section1{
+    background-color: black;
+    color: white;
+    
+}
+.my1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 2rem;
+    padding-bottom: 2px;
+}
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.img1{
+    padding-top: 12.5px;
+    padding-left: 7rem;
+    max-width:75%
+}
+.logo{
+    padding-left: 10px;
+}
+.btn{
+    border-radius: 0.25rem;
+    border-color: white;
+    padding: 0.5rem;
+    background-color: var(--topbtn);
+    color: white;
+    
+
+}
+.btn2{
+    display: block;
+    padding: 0.88rem;
+    background-color: var(--lbtn);
+    color: white;
+    border-radius: 0.25rem;
+    font-size: medium;
+}
+.img2{
+    max-width: 80%;
+    padding-left: 1.8rem;
+    padding-top: 0.75em;
+}
+.my2{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-size: 2rem;
+    padding-bottom: 2px;
+    padding-left: 15px;
+}
+.p1{
+    padding-left: 15px;
+}
+.img3 {
+    padding-left: 3.5rem;
+    max-width: 70%;
+
+}
+.logo-img{
+    max-width: 50px;
+}
+.icon-img{
+    width: 2rem;
+    
+    padding-top: 3px;
+    
+
+}
+.icon-img:hover{
+    background-color: var(--lbtn)
+}
+.win-ic{
+    padding-right: 2px;
+}
+.section2{
+    background-color: black;
+    color: white;
+    max-height: 100vh;
+    display: block;
+
+}
+.plans{
+    display: block;
+    padding-left: 22rem;
+    padding-top: 2.5rem;
+}
+.min-h-screen{
+    min-height: 100vh;
+}
+.bg-red{
+    background-color: red;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.flex{
+    display: flex;
+
+}
+.items-center{
+    align-items: center;
+}
+.justify-between{
+    justify-content:space-between
+}
+.flex-col{
+    flex-direction: column;
+}
+
+.font-bold{
+    font-weight: bolder;
+}
+.justify-center{
+    justify-content: center;
+}
+footer p{
+    display: block;
+    padding-top: 5rem;
+    text-align: center;
+}
